@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/img/the1.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/img/the1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/img/the1.png">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Personal projects{% endblock %}</title>
+</head>
+<body>
+
+{% block body %}
+<div class="header">
+    <h1 style="margin-top: 20px">Personal projects</h1>
+</div>
+
+<!-- Content-->
+<div class="container">
+  <!-- Title-->
+  <!-- Card columns-->
+  <div class="card-columns">
+
+    <!-- Card-->
+    <div class="card text-white border-0">
+
+      <div class="card-img-overlay --card-img-overlay-purple d-flex flex-column justify-content-between align-items-start p-5">
+        <div class="h2 mb-2"><a class="text-white" href="https://github.com/houston03/Frontend" >Frontend and website design</a></div>
+
+
+        <a class="btn badge badge-warning2 text-uppercase" href="https://www.youtube.com/watch?v=ADwoJP6lwL4">Site</a>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <div class="card border-0">
+      <div class="position-relative text-white">
+
+        <div class="card-img-overlay three"><span class="badge badge-light text-uppercase">Important</span></div>
+
+        <div class="card-smooth-caption">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="mr-auto">
+              <h5 class="card-title text-white">Layout and uploading of the site to the host</h5>
+              <h6 class="card-subtitle text-white">Git/Vercel</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <p class="card-text"> Follow the link to find my GitHub and Vercel account, as well as how the site is uploaded to the hosting.</p>
+      </div>
+
+      <div class="card-footer">
+        <div class="media align-items-center">
+          <div class="media-body"><a class="card-link text-primary read-more" href="https://github.com/houston03">GitHub</a>
+            <a class="card-link text-primary read-more" href="https://vercel.com/pavels-projects-0bf38ce3">Vercel</a></div>
+          <div class="footerright">
+            <div class="tnlink3"><i class="fas fa-heart" aria-hidden="true"></i></div>
+            <div class="tnlink3"><i class="fas fa-share-nodes" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Card-->
+    <div class="card text-white border-0">
+
+      <div class="card-img-overlay --card-img-overlay-purple d-flex flex-column justify-content-between align-items-start p-5 four"></div>
+
+      <div class="card-img-overlay card-overlay-black hover-light d-flex flex-column justify-content-between align-items-start">
+        <div class="d-flex justify-content-between w-100 mb-3">
+          <div><span class="badge badge-warning3 mr-2"> Application</span><span class="badge badge-info"> THETL</span></div>
+
+          <a href="javascript://">
+            <div class="myicoo"></div>
+          </a>
+        </div>
+        <div class="mb-4">
+
+          <div class="h3"><a class="text-white" href="https://github.com/houston03/Application">QT applications, their backend and design<br>QT/Py</a></div>
+
+        </div>
+          <a class="btn badge badge-warning2 text-uppercase" href="https://disk.yandex.ru/client/disk">Download</a>
+        <div class="text-light">January 14 2024</div>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <!-- Card-->
+    <div class="card text-center border-0">
+      <div class="card-body">
+        <div class="card-card-avatar mb-4">
+          <div class="card-avatar avatar-border two">
+          </div>
+        </div>
+        <div class="mb-5">
+          <h5 class="card-title mb-1">Data analysis</h5>
+          <div class="text-muted">expected result</div>
+        </div>
+        <div class="d-flex justify-content-around align-items-center"><a class="card-link text-uppercase" href="https://github.com/houston03/Data-analysis">Enter</a><a class="card-link text-uppercase text-dark" href="javascript://">Don't enter</a></div>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <!-- Card-->
+    <div class="card bg-primary text-white text-center p-4 border-0 two">
+      <blockquote class="blockquote mb-0">
+        <p class="mb-0">Anything is possible, the main thing is not to give up.</p>
+
+      </blockquote>
+    </div>
+
+    <!-- Card-->
+
+    <!-- Card-->
+
+    <!-- Card-->
+
+    <div class="card text-center border-0 mb-4">
+      <div class="card-cup bg-primary"></div>
+      <div class="card-body proavatar">
+        <div class="card-avatar avatar-border mt-n5">
+          <rect width="100%" height="100%" fill="#495057"></rect>
+        </div>
+        <h5 class="card-title text-primary mb-1">Khmel Pavel</h5>
+        <div class="text-muted">Developer</div>
+
+        <!--<p class="mt-4 mb-3">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden</p>-->
+
+      </div>
+      <div class="card-footer card-footer two">
+        <a class="card-link text-primary read-more two" href="/project">Projects</a>
+
+      </div>
+
+    </div>
+
+    <!-- Card-->
+    <div class="card bg-primary text-white text-center p-4 border-0">
+      <blockquote class="blockquote mb-0">
+        <p class="mb-0">Learning new things is already a part of my life.</p>
+
+      </blockquote>
+    </div>
+
+    <!-- Card-->
+    <div class="card bg-secondary two text-white p-4 border-0">
+
+
+
+      <div class="container incard">
+        <h2 class="indent">SQLAlchemy</h2>
+        <p class="indent"> A gentleman's DBMS that no one can pass by. For me, it was a start in SQL. </p>
+          <div class="mb-3"><a class="button" style="text-decoration: none; color: rgba(50,150,200,0.95); font-family: Roboto;" href="https://github.com/houston03/framework_Flask-SQLAlchemy">Read More</a></div>
+      </div>
+
+    </div>
+
+    <!-- Card-->
+
+    <!-- Card-->
+
+    <!-- Card-->
+    <div class="card border-0 three">
+      <div class="position-relative">
+
+        <div class="card-img-overlay two"><span class="badge badge-light text-uppercase">IMPOSSIBLE</span></div>
+      </div>
+      <div class="card-body two">
+
+        <h5 class="card-title">Machine learning</h5>
+        <h6 class="card-subtitle mb-2 text-muted">January 16 2024</h6>
+
+        <p class="card-text mt-4">We can say that machine learning is not easy, but it is incredibly interesting and this interest generates the strength to go further.</p>
+      </div>
+      <div class="card-footer">
+
+        <div class="media align-items-center">
+
+          <div class="media-body"><a class="card-link text-primary read-more" href="https://github.com/houston03/Machine_learning">Read More</a></div>
+
+          <div class="footerright">
+            <div class="tnlink3"><i class="fas fa-heart"></i></div>
+            <div class="tnlink3"><i class="fas fa-share-nodes"></i></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <!-- Card-->
+    <div class="card bg-secondary two text-white p-4 border-0">
+
+
+
+      <div class="container incard">
+        <h2 class="indent red">PostgreSQL</h2>
+        <p class="indent"> On the one hand, SQL is easy to learn, but there are nuances everywhere. The main thing is to think logically, the rest will come with experience. </p>
+          <div class="mb-3"><a class="button" style="text-decoration: none; color: rgba(0,100,200,0.9); font-family: Roboto;" href="https://github.com/houston03/PostgreSQL">Read More</a></div>
+      </div>
+
+    </div>
+
+    <!-- Card-->
+
+
+    <!-- Card -->
+    <!-- Card-->
+    <div class="card border-0 wtab">
+
+      <div class="card-body three" style="color: rgba(220,220,220,0.9)"><small class="text-muted">framework Flask</small>
+        <h5>Flask has become the base and foundation for me, the beginning in creating websites. I created most of the sites using this framework.</h5>
+          <div class="mb-3"><a class="card-link text-primary read-more" href="https://github.com/houston03/framework_Flask-PostgreSQL">GitHub</a></div>
+
+
+
+      </div>
+
+    </div>
+
+    <!-- Card-->
+
+    <div class="card border-0">
+      <div class="position-relative">
+
+      </div>
+      <div class="card-body">
+
+
+        <h5 class="card-title">Testing</h5>
+        <hr>
+        <p class="card-text">I have experience in this field. During his work, he tested computer components and software, and was engaged in compiling annoying, bug reports. I created autotests and tested them manually.</p>
+      </div>
+      <div class="card-footer">
+        <div class="media align-items-center">
+ <div class="mb-3"><a class="button" style="text-decoration: none; color: black; font-family: Roboto;" href="https://github.com/houston03/autoTEST">GitHub</a></div>
+          <div class="footerright">
+            <div class="tnlink3"><i class="fas fa-heart" aria-hidden="true"></i></div>
+            <div class="tnlink3"><i class="fas fa-share-nodes" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <div class="card border-0 wtab">
+
+      <div class="card-body four" style="color: rgba(220,220,220,0.9)"><small class="text-muted">framework Django</small>
+        <h5>Django is undoubtedly a complex framework for me, which is why it is interesting. At the moment, only one django-based website has been created. But is it possible to say "just" considering all the difficulties of this tool?</h5>
+        <div class="mb-3"><a class="card-link text-primary read-more" href="https://github.com/houston03/PostgreSQL">GitHub</a>
+       </div>
+
+      </div>
+
+    </div>
+
+    <!-- Card-->
+
+    <!-- Card-->
+    <!-- Card-->
+
+  </div>
+</div>
+<!---->
+<!-- Footer items-->
+<!---->
+<!-- Footer-->
+<footer class="footer">
+<div class="media-body"><a class="btn btn one" href="https://portfolio-vert-delta-96.vercel.app/">To the main page <</a></div>
+
+  <p>Created by <a class="yo" href="https://vk.com/id201359102">Khmel Pavel</a> | 2024 </p>
+<div class="media-body"><a class="btn btn one" href="https://flask-pro-pavels-projects-0bf38ce3.vercel.app/">To the about me page ></a></div>
+</footer>
+
+{% endblock %}
+</body>
+</html>
